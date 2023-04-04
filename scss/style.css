@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&family=Rosario:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+header {
+  padding: 50px 0;
+  background: #fff;
+}
+header .header_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header_menu .menu_left {
+  display: flex;
+}
+header .header_menu .menu_left li {
+  margin-right: 40px;
+}
+header .header_menu .menu_left li a {
+  line-height: 24px;
+  color: #222222;
+  padding: 10px 10px;
+  transition: 0.3s all ease;
+  border-radius: 8px;
+}
+header .header_menu .menu_left li a:hover {
+  background-color: #09A66D;
+  color: #fff;
+}
+header .header_menu .menu_right {
+  display: flex;
+  align-items: center;
+}
+header .header_menu .menu_right .menu_right_search {
+  margin-right: 20px;
+  background: #F3FBF8;
+  padding: 4px 8px;
+  border-radius: 50px;
+}
+header .header_menu .menu_right .menu_right_by {
+  margin-right: 32px;
+  background: #F3FBF8;
+  padding: 4px 8px;
+  border-radius: 50px;
+}
+header .header_menu .menu_right .menu_right_reg {
+  background: #09A66D;
+  border-radius: 8px;
+  padding: 10px 23px;
+  border: 1px solid transparent;
+  transition: 0.3s all ease;
+}
+header .header_menu .menu_right .menu_right_reg a {
+  line-height: 20px;
+  color: #FFFFFF;
+  transition: 0.3s all ease;
+}
+header .header_menu .menu_right .menu_right_reg a:hover {
+  color: #09A66D;
+}
+header .header_menu .menu_right .menu_right_reg:hover {
+  background: #FFFFFF;
+  border: 1px solid #09A66D;
+}
+
+.main {
+  background: #F3FBF8;
+  padding: 92px 100px 32px 120px;
+  position: relative;
+}
+.main .main_title {
+  font-family: "Rosario";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 90px;
+  color: #222222;
+  text-align: center;
+}
+.main .main_text {
+  margin-top: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #555555;
+}
+.main .main_btn {
+  margin-top: 57px;
+  text-align: center;
+}
+.main .main_btn a {
+  font-weight: 500;
+  line-height: 30px;
+  color: #222222;
+}
+.main .main_btn a span {
+  background: #09A66D;
+  padding: 20px 16px;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+.main .flesh_img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-129%, -117%);
+}
+.main .main_right {
+  background: #FFFFFF;
+  padding: 17px 46px 17px 33px;
+  margin-bottom: 30px;
+}
+.main .main_right .main_right_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .main_right .main_right_block .main_right_block_img {
+  margin-right: 24px;
+}
+.main .main_right .main_right_block .main_right_block_text .main_right_block_person {
+  font-size: 48px;
+  line-height: 48px;
+  color: #000000;
+}
+.main .main_right .main_right_block .main_right_block_text .main_right_block_user {
+  line-height: 30px;
+  color: #000000;
+}
+
+.thebest {
+  padding: 140px 99px 146px 100px;
+  position: relative;
+}
+.thebest .thebest_left_title {
+  font-family: "Rosario";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 90px;
+  color: #222222;
+}
+.thebest .thebest_left_text {
+  line-height: 30px;
+  color: #555555;
+  margin-top: 20px;
+  margin-bottom: 56px;
+}
+.thebest .thebest_card_block {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 40px 60px 40px 60px;
+}
+.thebest .thebest_card_block:hover {
+  background: #F3FBF8;
+}
+.thebest .thebest_card_block .thebest_card_block_img {
+  background: #F3FBF8;
+  padding: 21px 20px;
+  border-radius: 50px;
+  margin-right: 24px;
+}
+.thebest .thebest_card_block .thebest_card_block_img:hover {
+  background: #fff;
+  border-radius: 50px;
+}
+.thebest .thebest_card_block .thebest_card_block_title_text .thebest_card_block_title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #222222;
+  margin-bottom: 8px;
+}
+.thebest .thebest_card_block .thebest_card_block_title_text .thebest_card_block_text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #555555;
+}
+.thebest .thebest_card_arrow {
+  margin-top: 50px;
+  text-align: center;
+}
+.thebest .thebest_snake {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%, -115%);
+}
+
+.special {
+  background: rgba(9, 166, 109, 0.05);
+  padding: 88px 115px 145px 100px;
+}
+.special .special_right_block {
+  margin-top: 32px;
+  position: relative;
+}
+.special .special_right_block .special_right_block_title {
+  font-family: "Rosario";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 90px;
+  color: #222222;
+  margin-bottom: 20px;
+}
+.special .special_right_block .special_right_block_text {
+  line-height: 30px;
+  color: #555555;
+  margin-bottom: 50px;
+}
+.special .special_right_block .special_right_block_btn a {
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  color: #222222;
+}
+.special .special_right_block .special_right_block_btn a span {
+  background: #09A66D;
+  padding: 20px 16px;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+.special .special_right_block .special_right_block_fresh {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-22%, 30%);
+}
+
+.customer {
+  padding: 96px 100px 156px 100px;
+}
+.customer .customer_left .customer_left_title {
+  font-family: "Rosario";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 90px;
+  color: #222222;
+  margin-bottom: 30px;
+}
+.customer .customer_left .customer_left_text {
+  line-height: 30px;
+  color: #555555;
+  margin-bottom: 40px;
+}
+.customer .customer_left .customer_left_name {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  color: #222222;
+}
+.customer .customer_left .customer_left_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.customer .customer_left .customer_left_block .customer_left_rating {
+  margin-top: 20px;
+}
+.customer .customer_left .customer_left_block .customer_left_next_btn .arrow2 {
+  background-color: green;
+  padding: 10px 16px;
+  border-radius: 50px;
+}
+.customer .customer_left .customer_left_block .customer_left_next_btn .arrow {
+  border: 1px solid #CCCCCC;
+  padding: 10px 16px;
+  border-radius: 50px;
+  margin-right: 26px;
+}
+.customer .customer_right_img {
+  margin-top: 41px;
+}
+
+.simple {
+  padding: 0 200px 140px 400px;
+}
+.simple .simple_right_block .simple_right_block_download {
+  background: #F3FBF8;
+  border-radius: 50px;
+  padding: 11px 24px;
+  line-height: 18px;
+  color: #333333;
+}
+.simple .simple_right_block .simple_right_block_title {
+  font-family: "Rosario";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 90px;
+  color: #222222;
+  margin-top: 16px;
+}
+.simple .simple_right_block .simple_right_block_text {
+  line-height: 30px;
+  color: #555555;
+  margin-top: 20px;
+}
+.simple .simple_right_block .simple_right_block_app {
+  margin-top: 50px;
+}
+.simple .simple_right_block .simple_right_block_app a {
+  margin: 0 24px 0 0;
+}
+
+footer {
+  background: #FCFEFD;
+  padding: 66px 98px 118px 100px;
+}
+footer .footer_logo .ftext {
+  margin-top: 30px;
+}
+footer .fnavigation .fnavigation_title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #222222;
+}
+footer .fnavigation ul li {
+  margin-bottom: 24px;
+}
+footer .fnavigation ul li a {
+  line-height: 23px;
+  color: #555555;
+}
+footer .fnavigation .social a {
+  margin-right: 55px;
+}/*# sourceMappingURL=style.css.map */
